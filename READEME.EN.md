@@ -1,0 +1,66 @@
+[中文](README.md) | English
+
+---
+
+# AutoHJKL
+
+AutoHJKL is a tools scripted via AutoHotkey. Its main feature is endure extra function to CapsLock key.
+
+AutoHJKL contains some features for personal use. And you can script your personal features for it. It has seom flexibility and scalability.
+
+## About name
+
+It's a script binding HJKL keys to arrow keys at first and it's scripted via AutoHotkey. So I named it AutoHJKL.
+
+# Basic Usage
+
+Use <kbd>CapsLock</kbd> plus the following keys to trigger features.
+
+Many shortcut keys have certain rules. Some key combination is derived from the OS like Windows, so you do not have to memorize them.
+
+|Keys|Features|Comment|
+|:-:|:-:|:-:|
+|<kbd>H</kbd> <kbd>J</kbd> <kbd>K</kbd> <kbd>L</kbd>|`←` `↓` `↑` `→`||
+|<kbd>Shift</kbd> + <kbd>H</kbd> <kbd>J</kbd> <kbd>K</kbd> <kbd>L</kbd>|Select `←` `↓` `↑` `→`|Can take effect with <kbd>Shift</kbd> to select a word.|
+|<kbd>U</kbd> <kbd>I</kbd> <kbd>O</kbd> <kbd>P</kbd>|<kbd>PageUp</kbd> <kbd>Home</kbd> <kbd>End</kbd> <kbd>PageDown</kbd>||
+|<kbd>Shift</kbd> + <kbd>U</kbd> <kbd>I</kbd> <kbd>O</kbd> <kbd>P</kbd>|Select <kbd>PageUp</kbd> <kbd>Home</kbd> <kbd>End</kbd> <kbd>PageDown</kbd>||
+|<kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd>|Move mouse `↑ ` `← ` `↓`  `→`||
+|<kbd>Q</kbd> <kbd>E</kbd>|`Mouse Left Click` `Mouse Right Click`||
+|<kbd>R</kbd> <kbd>F</kbd>|`Mouse Wheel ↑` `Mouse Wheel ↓`||
+|<kbd>Shift</kbd> + <kbd>R</kbd>、<kbd>Shift</kbd> + <kbd>F</kbd>|`Mouse Wheel ←` `Mouse Wheel →`||
+|<kbd>T</kbd>|<kbd>Enter</kbd>|Can take effect with <kbd>Shift</kbd> .|
+|<kbd>B</kbd>|<kbd>Backspace</kbd>||
+|<kbd>Shift</kbd> + <kbd>B</kbd>|Delete a line||
+|<kbd>Ctrl</kbd> + <kbd>B</kbd>|Delete a word|The edge of a word is decided by OS and Editor|
+
+# Advance Usage
+
+## Clipboard
+
+Use <kbd>CapsLock</kbd> + <kbd>X</kbd> <kbd>C</kbd> <kbd>V</kbd> , then press number key <kbd>0</kbd> - <kbd>9</kbd>.
+
+<kbd>X</kbd> means Cut; <kbd>C</kbd> means Copy; <kbd>V</kbd> means Paste.
+
+For example：
+
+After press <kbd>CapsLock</kbd> plus <kbd>X</kbd> , press <kbd>1</kbd> means `Cut`(cause press <kbd>X</kbd>) to Clipboard `1`。
+
+> Note: The Clipboard feature was based on System Clipboard so that will cover the content of System Clipboard
+> The Clipboard saved at `clipboard` directory of script root dir, reboot/reload does not affect clipboard data.
+
+## Window Bind
+
+### Bind
+
+After press <kbd>CapsLock</kbd> + <kbd>Alt</kbd> + <kbd>W</kbd> , then press <kbd>0</kbd> - <kbd>9</kbd> in 3sec to bind current active window to the number you pressed.
+
+### Active
+
+After press <kbd>CapsLock</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd> , then press <kbd>0</kbd> - <kbd>9</kbd> in 3sec to active the window you binded.
+
+> Note: The id of binded window saved at `window` directory of root dir, reload script and reboot system does not affect window binded.
+> But the binding records will be deleted if the script found window binded was closed.
+
+## Reload Script
+
+Press <kbd>CapsLock</kbd> + <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>R</kbd> to Reload script. (Usually not required unless debugging user script)

@@ -1,0 +1,66 @@
+中文 | [English](READEME.EN.md)
+
+---
+
+# AutoHJKL
+
+AutoHJKL 是一个使用 AutoHotkey 编写的脚本。它的主要功能是为 CapsLock 键赋予额外的功能。
+
+AutoHJKL 集成了一些咱个人使用的功能，也保留了扩展能力，如果你会 AutoHotkey，也可以为你自己的脚本绑定热键。它有一定的灵活性与可扩展性。
+
+## 名字
+
+由于最初只是用于在 HJKL 键上绑定方向键的脚本，又是使用 AutoHotkey 开发，因此命名为 AutoHJKL。
+
+# 基础使用
+
+使用 <kbd>CapsLock</kbd> 键加上以下按键来触发对应的功能。
+
+许多的快捷键都有一定的规律，也有的组合键是从 Windows 操作系统的快捷键中推出的，因此您不必死记硬背对应的按键。
+
+|按键|功能|备注|
+|:-:|:-:|:-:|
+|<kbd>H</kbd> <kbd>J</kbd> <kbd>K</kbd> <kbd>L</kbd>|`←` `↓` `↑` `→`||
+|<kbd>Shift</kbd> + <kbd>H</kbd> <kbd>J</kbd> <kbd>K</kbd> <kbd>L</kbd>|选中 `←` `↓` `↑` `→`|可以配合 <kbd>Ctrl</kbd> 键选中一词|
+|<kbd>U</kbd> <kbd>I</kbd> <kbd>O</kbd> <kbd>P</kbd>|<kbd>PageUp</kbd> <kbd>Home</kbd> <kbd>End</kbd> <kbd>PageDown</kbd>||
+|<kbd>Shift</kbd> + <kbd>U</kbd> <kbd>I</kbd> <kbd>O</kbd> <kbd>P</kbd>|选中 <kbd>PageUp</kbd> <kbd>Home</kbd> <kbd>End</kbd> <kbd>PageDown</kbd>||
+|<kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd>|移动鼠标 `↑ ` `← ` `↓`  `→`||
+|<kbd>Q</kbd> <kbd>E</kbd>|`鼠标左键` `鼠标右键`||
+|<kbd>R</kbd> <kbd>F</kbd>|`鼠标滚轮 ↑` `鼠标滚轮 ↓`||
+|<kbd>Shift</kbd> + <kbd>R</kbd>、<kbd>Shift</kbd> + <kbd>F</kbd>|`鼠标滚轮 ←` `鼠标滚轮 →`||
+|<kbd>T</kbd>|回车 <kbd>Enter</kbd>|可以配合 <kbd>Shift</kbd> 键|
+|<kbd>B</kbd>|退格 <kbd>Backspace</kbd>||
+|<kbd>Shift</kbd> + <kbd>B</kbd>|删除一行||
+|<kbd>Ctrl</kbd> + <kbd>B</kbd>|删除一个单词|单词的界限受操作系统与编辑器影响|
+
+# 高级使用
+
+## 剪贴板
+
+使用 <kbd>CapsLock</kbd> + <kbd>X</kbd> <kbd>C</kbd> <kbd>V</kbd> 任意一键，然后在 3 秒内按 <kbd>0</kbd> - <kbd>9</kbd> 数字键即可。
+
+<kbd>X</kbd> 表示剪切；<kbd>C</kbd> 表示复制；<kbd>V</kbd> 表示粘贴。
+
+例如：
+
+按下 <kbd>CapsLock</kbd> + <kbd>X</kbd> 后，再按 <kbd>1</kbd> 表示 `剪切`(因为按下的组合是 <kbd>X</kbd>) 内容到剪贴板 `1`。
+
+> 注意： AutoHJKL 的剪贴版功能依赖于系统的剪贴板，因此在使用时会覆盖系统剪贴板内容。
+> 剪贴板保存在 AutoHJKL 根目录下的 clipboard 中，重启不影响剪贴板数据。
+
+## 窗口绑定
+
+### 绑定
+
+按下 <kbd>CapsLock</kbd> + <kbd>Alt</kbd> + <kbd>W</kbd> 后，然后在 3 秒内按 <kbd>0</kbd> - <kbd>9</kbd> 数字键即可将当前活动窗口绑定到对应数字上。
+
+### 激活
+
+按下 <kbd>CapsLock</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd> 后，然后在 3 秒内按 <kbd>0</kbd> - <kbd>9</kbd> 数字键即可将绑定过的窗口激活。
+
+> 注意：绑定的窗口 ID 将保存在根目录下的 window 目录中，重新加载脚本不影响已绑定的窗口，重启系统也不会。
+> 但如果程序发现已绑定的窗口被关闭，则会删除保存的绑定记录。
+
+## 重启脚本
+
+<kbd>CapsLock</kbd> + <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>R</kbd> 即可重启脚本。（非调试用户脚本时通常不需要重启）
