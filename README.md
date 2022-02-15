@@ -12,6 +12,20 @@ AutoHJKL 集成了一些咱个人使用的功能，也保留了扩展能力，�
 
 由于最初只是用于在 HJKL 键上绑定方向键的脚本，又是使用 AutoHotkey 开发，因此命名为 AutoHJKL。
 
+# 如何使用
+
+您有两种方式使用该脚本：如果您不了解什么是 AutoHotkey，建议使用发布版本；如果您是 AutoHotkey 开发者，建议使用环境运行脚本。
+
+## 使用发布版本
+
+如果您在 GitHub 页面中看到了 Release，则可以在 Release 处下载二进制文件。（.exe）
+
+## 使用环境运行
+
+首先您需要一个 [AutoHotkey](https://www.autohotkey.com/) 来运行这个脚本，由于脚本使用的语法限制，您只能使用 [AutoHotkey1.1](https://www.autohotkey.com/download/ahk-install.exe) 来运行此脚本。（**不要使用正在 Beta 阶段的 AutoHotkey v2 版本，也不要使用过时的 1.0 版本**）
+
+在安装好 AutoHotkey 环境后，右键 AutoHJKL.ahk 文件，选择 `Run Script` 即可。
+
 # 基础使用
 
 使用 <kbd>CapsLock</kbd> 键加上以下按键来触发对应的功能。

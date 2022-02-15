@@ -12,6 +12,20 @@ AutoHJKL contains some features for personal use. And you can script your person
 
 It's a script binding HJKL keys to arrow keys at first and it's scripted via AutoHotkey. So I named it AutoHJKL.
 
+# How to run
+
+You have two ways to run this script: Use release version if you don't know what is AutoHotkey; Or run script via AutoHotkey environment if you are AutoHotkey developer.
+
+## Use release version
+
+You can download release binary file on GitHub if you can see the GitHub Release page. (.exe)
+
+## Run script via environment
+
+Firstly, you need a [AutoHotkey](https://www.autohotkey.com/) to run this script. You can only use [AutoHotkey1.1](https://www.autohotkey.com/download/ahk-install.exe) because of the sytax used. (**Don't use AutoHotkey v2 cause it's still in Beta. And do not use deprecated 1.0 version too**)
+
+Right click AutoHJKL.ahk file and choose `Run Script` after install AutoHotkey environment.
+
 # Basic Usage
 
 Use <kbd>CapsLock</kbd> plus the following keys to trigger features.
