@@ -11,7 +11,9 @@ global name = "AutoHJKL"
 global switcher_status := 0
 global switcher_windows := []
 
-Menu, Tray, Icon, icon.ico, 1, 1
+if(!A_IsCompiled){
+	Menu, Tray, Icon, icon.ico, 1, 1
+}
 Menu, Tray, Tip, %name%
 
 #Include Config.ahk
