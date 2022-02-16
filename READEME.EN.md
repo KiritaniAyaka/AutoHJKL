@@ -75,6 +75,18 @@ After press <kbd>CapsLock</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd> , then press <kb
 > Note: The id of binded window saved at `window` directory of root dir, reload script and reboot system does not affect window binded.
 > But the binding records will be deleted if the script found window binded was closed.
 
+## AltTab Enhance
+
+Press down <kbd>Alt</kbd> + <kbd>Tab</kbd> to call out Windows TaskSwitcher, release <kbd>Tab</kbd> and keep pressing <kbd>Alt</kbd> . Then you can use <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> to move your focus.
+
 ## Reload Script
 
 Press <kbd>CapsLock</kbd> + <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>R</kbd> to Reload script. (Usually not required unless debugging user script)
+
+# Other keymaps
+
+> The keymap below are omitted <kbd>CapsLock</kbd> key.
+
+|Keys|Map|Comment|
+|:-:|:-:|:-:|
+|<kbd>Alt</kbd> + <kbd>R</kbd>|<kbd>F2</kbd>|If you have F2 key, it may be useless for you|

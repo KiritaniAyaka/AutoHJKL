@@ -75,6 +75,18 @@ AutoHJKL 集成了一些咱个人使用的功能，也保留了扩展能力，�
 > 注意：绑定的窗口 ID 将保存在根目录下的 window 目录中，重新加载脚本不影响已绑定的窗口，重启系统也不会。
 > 但如果程序发现已绑定的窗口被关闭，则会删除保存的绑定记录。
 
+## AltTab 增强
+
+按下 <kbd>Alt</kbd> + <kbd>Tab</kbd> 键呼出 Task Switcher，松开 <kbd>Tab</kbd> 键并按住 <kbd>Alt</kbd> 键。此时可以使用 <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> 键来移动您的焦点。
+
 ## 重启脚本
 
 <kbd>CapsLock</kbd> + <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>R</kbd> 即可重启脚本。（非调试用户脚本时通常不需要重启）
+
+# 其他快捷键映射
+
+> 下列映射均省略了 <kbd>CapsLock</kbd> 键。
+
+|按键|映射|备注|
+|:-:|:-:|:-:|
+|<kbd>Alt</kbd> + <kbd>R</kbd>|<kbd>F2</kbd>|如果你有 F2 键，这可能对你来说没什么用|
