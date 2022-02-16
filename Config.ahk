@@ -57,7 +57,7 @@ IniRead, key_g_ls_lc_la, config.ini, Keys, g_ls_lc_la ,
 IniRead, key_h, config.ini, Keys, h , moveLeft
 IniRead, key_h_ls, config.ini, Keys, h_ls , selectLeft
 IniRead, key_h_lc, config.ini, Keys, h_lc , moveAWordLeft
-IniRead, key_h_la, config.ini, Keys, h_la ,
+IniRead, key_h_la, config.ini, Keys, h_la , moveAltLeft
 IniRead, key_h_ls_lc, config.ini, Keys, h_ls_lc , selectAWordLeft
 IniRead, key_h_ls_la, config.ini, Keys, h_ls_la ,
 IniRead, key_h_lc_la, config.ini, Keys, h_lc_la ,
@@ -73,7 +73,7 @@ IniRead, key_i_ls_lc_la, config.ini, Keys, i_ls_lc_la ,
 IniRead, key_j, config.ini, Keys, j , moveDown
 IniRead, key_j_ls, config.ini, Keys, j_ls , selectDown
 IniRead, key_j_lc, config.ini, Keys, j_lc , ctrlMoveDown
-IniRead, key_j_la, config.ini, Keys, j_la ,
+IniRead, key_j_la, config.ini, Keys, j_la , moveAltDown
 IniRead, key_j_ls_lc, config.ini, Keys, j_ls_lc , ctrlShiftDown
 IniRead, key_j_ls_la, config.ini, Keys, j_ls_la ,
 IniRead, key_j_lc_la, config.ini, Keys, j_lc_la ,
@@ -81,7 +81,7 @@ IniRead, key_j_ls_lc_la, config.ini, Keys, j_ls_lc_la ,
 IniRead, key_k, config.ini, Keys, k , moveUp
 IniRead, key_k_ls, config.ini, Keys, k_ls , selectUp
 IniRead, key_k_lc, config.ini, Keys, k_lc , ctrlMoveUp
-IniRead, key_k_la, config.ini, Keys, k_la ,
+IniRead, key_k_la, config.ini, Keys, k_la , moveAltUp
 IniRead, key_k_ls_lc, config.ini, Keys, k_ls_lc , ctrlShiftUp
 IniRead, key_k_ls_la, config.ini, Keys, k_ls_la ,
 IniRead, key_k_lc_la, config.ini, Keys, k_lc_la ,
@@ -89,7 +89,7 @@ IniRead, key_k_ls_lc_la, config.ini, Keys, k_ls_lc_la ,
 IniRead, key_l, config.ini, Keys, l , moveRight
 IniRead, key_l_ls, config.ini, Keys, l_ls , selectRight
 IniRead, key_l_lc, config.ini, Keys, l_lc , moveAWordRight
-IniRead, key_l_la, config.ini, Keys, l_la ,
+IniRead, key_l_la, config.ini, Keys, l_la , moveAltRight
 IniRead, key_l_ls_lc, config.ini, Keys, l_ls_lc , selectAWordRight
 IniRead, key_l_ls_la, config.ini, Keys, l_ls_la ,
 IniRead, key_l_lc_la, config.ini, Keys, l_lc_la ,

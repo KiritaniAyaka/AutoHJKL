@@ -100,6 +100,22 @@ fun_ctrlShiftUp(){
 	SendInput, +^{Up}
 }
 
+fun_moveAltLeft(){
+	SendInput, !{Left}
+}
+
+fun_moveAltRight(){
+	SendInput, !{Right}
+}
+
+fun_moveAltUp(){
+	SendInput, !{Up}
+}
+
+fun_moveAltDown(){
+	SendInput, !{Down}
+}
+
 fun_backspace(){
 	SendInput, {BS}
 }
