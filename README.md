@@ -77,7 +77,7 @@ AutoHJKL 集成了一些咱个人使用的功能，也保留了扩展能力，�
 
 ## AltTab 增强
 
-按下 <kbd>Alt</kbd> + <kbd>Tab</kbd> 键呼出 Task Switcher，松开 <kbd>Tab</kbd> 键并按住 <kbd>Alt</kbd> 键。此时可以使用 <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> 键来移动您的焦点。
+按下 <kbd>Alt</kbd> + <kbd>Tab</kbd> 键呼出 Task Switcher，松开 <kbd>Tab</kbd> 键并按住 <kbd>Alt</kbd> 键。此时可以使用 <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> (或者 <kbd>H</kbd> <kbd>J</kbd> <kbd>K</kbd> <kbd>L</kbd>) 键来移动您的焦点；按 <kbd>C</kbd> 关闭当前焦点的窗口。
 
 ## 重启脚本
 

@@ -77,7 +77,7 @@ After press <kbd>CapsLock</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd> , then press <kb
 
 ## AltTab Enhance
 
-Press down <kbd>Alt</kbd> + <kbd>Tab</kbd> to call out Windows TaskSwitcher, release <kbd>Tab</kbd> and keep pressing <kbd>Alt</kbd> . Then you can use <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> to move your focus.
+Press down <kbd>Alt</kbd> + <kbd>Tab</kbd> to call out Windows TaskSwitcher, release <kbd>Tab</kbd> and keep pressing <kbd>Alt</kbd> . Then you can use <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> (Or <kbd>H</kbd> <kbd>J</kbd> <kbd>K</kbd> <kbd>L</kbd>) to move your focus; Press <kbd>C</kbd> to close the window which has focus.
 
 ## Reload Script
 
