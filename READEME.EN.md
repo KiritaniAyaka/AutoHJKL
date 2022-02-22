@@ -59,7 +59,7 @@ For example：
 
 After press <kbd>CapsLock</kbd> plus <kbd>X</kbd> , press <kbd>1</kbd> means `Cut`(cause press <kbd>X</kbd>) to Clipboard `1`。
 
-> Note: The Clipboard feature was based on System Clipboard so that will cover the content of System Clipboard
+> ~~Note: The Clipboard feature was based on System Clipboard so that will cover the content of System Clipboard~~ (Not applicable after v0.2)
 > The Clipboard saved at `clipboard` directory of script root dir, reboot/reload does not affect clipboard data.
 
 ## Window Bind
@@ -82,6 +82,16 @@ Press down <kbd>Alt</kbd> + <kbd>Tab</kbd> to call out Windows TaskSwitcher, rel
 ## Reload Script
 
 Press <kbd>CapsLock</kbd> + <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>R</kbd> to Reload script. (Usually not required unless debugging user script)
+
+# Other shortcut functions
+
+## Open Cmd / Terminal
+
+Press <kbd>Z</kbd> to open Windows Terminal.
+
+Press <kbd>Alt</kbd> + <kbd>Z</kbd> to open Cmd.
+
+If the program can find a path on your focus window, Cmd / Terminal will open at this path.
 
 # Other keymaps
 

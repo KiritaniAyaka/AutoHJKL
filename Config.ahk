@@ -198,10 +198,10 @@ IniRead, key_y_ls_lc, config.ini, Keys, y_ls_lc ,
 IniRead, key_y_ls_la, config.ini, Keys, y_ls_la ,
 IniRead, key_y_lc_la, config.ini, Keys, y_lc_la ,
 IniRead, key_y_ls_lc_la, config.ini, Keys, y_ls_lc_la , 
-IniRead, key_z, config.ini, Keys, z ,
+IniRead, key_z, config.ini, Keys, z , runWindowsTerminal
 IniRead, key_z_ls, config.ini, Keys, z_ls ,
 IniRead, key_z_lc, config.ini, Keys, z_lc ,
-IniRead, key_z_la, config.ini, Keys, z_la ,
+IniRead, key_z_la, config.ini, Keys, z_la , runCmd
 IniRead, key_z_ls_lc, config.ini, Keys, z_ls_lc ,
 IniRead, key_z_ls_la, config.ini, Keys, z_ls_la ,
 IniRead, key_z_lc_la, config.ini, Keys, z_lc_la ,

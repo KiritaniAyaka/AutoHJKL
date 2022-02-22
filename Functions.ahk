@@ -231,3 +231,32 @@ fun_setWindowOnTop(){
 	ToolTip, AlwaysTop status switched.
 	SetTimer, RemoveToolTip, -800
 }
+
+fun_runWindowsTerminal(){
+	path := getPathByActiveExplorer()
+	if(path){
+		cmd := "wt -d """ . path . """"
+		Run, %cmd%
+	}else{
+		Run, wt
+	}
+}
+
+fun_runCmd(){
+	path := getPathByActiveExplorer()
+	if(path){
+		dl := SubStr(path, 1, 2)
+		cmd := "cmd /k cd " . path . " && " . dl
+		Run, %cmd%
+	}else{
+		Run, "cmd"
+	}
+}
+
+; Try to find a path from window text.
+getPathByActiveExplorer(){
+	match := ""
+	WinGetText, t, A
+	RegExMatch(t, "Oi)[A-Za-z]:\\.*", match)
+	return match[0]
+}

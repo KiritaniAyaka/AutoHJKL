@@ -59,7 +59,7 @@ AutoHJKL 集成了一些咱个人使用的功能，也保留了扩展能力，�
 
 按下 <kbd>CapsLock</kbd> + <kbd>X</kbd> 后，再按 <kbd>1</kbd> 表示 `剪切`(因为按下的组合是 <kbd>X</kbd>) 内容到剪贴板 `1`。
 
-> 注意： AutoHJKL 的剪贴版功能依赖于系统的剪贴板，因此在使用时会覆盖系统剪贴板内容。
+> ~~注意： AutoHJKL 的剪贴版功能依赖于系统的剪贴板，因此在使用时会覆盖系统剪贴板内容。~~ (从 v0.2 开始不再覆盖)
 > 剪贴板保存在 AutoHJKL 根目录下的 clipboard 中，重启不影响剪贴板数据。
 
 ## 窗口绑定
@@ -82,6 +82,16 @@ AutoHJKL 集成了一些咱个人使用的功能，也保留了扩展能力，�
 ## 重启脚本
 
 <kbd>CapsLock</kbd> + <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>R</kbd> 即可重启脚本。（非调试用户脚本时通常不需要重启）
+
+# 其他快捷功能
+
+## 打开 Cmd / Terminal
+
+按 <kbd>Z</kbd> 打开 Windows Terminal。
+
+按 <kbd>Alt</kbd> + <kbd>Z</kbd> 打开 Cmd。
+
+如果程序可以在当前焦点的窗口上找到路径，则会从该路径打开 Cmd / Terminal 。
 
 # 其他快捷键映射
 
