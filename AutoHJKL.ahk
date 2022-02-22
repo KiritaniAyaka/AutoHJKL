@@ -460,6 +460,7 @@ global clipboard_data_0 =
 9::
 0::
 	if(clipboard_copy != 0){
+		savedClipboardData := ClipboardAll
 		Clipboard := ""
 		if(clipboard_copy == 2){
 			SendInput, ^{x}
@@ -469,10 +470,13 @@ global clipboard_data_0 =
 		ClipWait
 		clipboard_data_%A_ThisHotkey% := ClipboardAll
 		clipboard_save(A_ThisHotkey)
+		Clipboard := savedClipboardData
 		ShowToolTip("Copied from clipboard " . A_ThisHotkey)
 	}else{
+		savedClipboardData := ClipboardAll
 		Clipboard := clipboard_data_%A_ThisHotkey%
 		SendInput, ^{v}
+		Clipboard := savedClipboardData
 		ShowToolTip("Pasted from clipboard " . A_ThisHotkey)
 	}
 	Goto, ClearClipboardStatus
