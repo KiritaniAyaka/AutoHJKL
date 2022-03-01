@@ -266,6 +266,19 @@ fun_runCmd(){
 	}
 }
 
+fun_runPowershell(){
+	path := getPathByActiveExplorer()
+	if(path){
+		; "\" is an escape in Powershell, use "/" to replace it
+		path := StrReplace(path, "\", "/")
+		cmd := "powershell -NoExit cd """ . path . """"
+		MsgBox, %cmd%
+		Run, %cmd%
+	}else{
+		Run, "powershell"
+	}
+}
+
 ; Try to find a path from window text.
 getPathByActiveExplorer(){
 	match := ""
