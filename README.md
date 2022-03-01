@@ -1,5 +1,7 @@
 中文 | [English](READEME.EN.md)
 
+![](https://visit-count.vercel.app/api/count?id=KiritaniAyaka.AutoHJKL)
+
 ---
 
 # AutoHJKL
@@ -85,11 +87,13 @@ AutoHJKL 集成了一些咱个人使用的功能，也保留了扩展能力，�
 
 # 其他快捷功能
 
-## 打开 Cmd / Terminal
+## 打开 Cmd / Terminal / Powershell
 
 按 <kbd>Z</kbd> 打开 Windows Terminal。
 
 按 <kbd>Alt</kbd> + <kbd>Z</kbd> 打开 Cmd。
+
+按 <kbd>Ctrl</kbd> + <kbd>Z</kbd> 打开 Powershell。
 
 如果程序可以在当前焦点的窗口上找到路径，则会从该路径打开 Cmd / Terminal 。
 

@@ -1,5 +1,7 @@
 [中文](README.md) | English
 
+![](https://visit-count.vercel.app/api/count?id=KiritaniAyaka.AutoHJKL)
+
 ---
 
 # AutoHJKL
@@ -85,11 +87,13 @@ Press <kbd>CapsLock</kbd> + <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>R</kbd> to
 
 # Other shortcut functions
 
-## Open Cmd / Terminal
+## Open Cmd / Terminal / Powershell
 
 Press <kbd>Z</kbd> to open Windows Terminal.
 
 Press <kbd>Alt</kbd> + <kbd>Z</kbd> to open Cmd.
+
+Press <kbd>Ctrl</kbd> + <kbd>Z</kbd> to open Powershell.
 
 If the program can find a path on your focus window, Cmd / Terminal will open at this path.
 
