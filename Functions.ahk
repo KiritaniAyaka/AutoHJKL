@@ -272,7 +272,6 @@ fun_runPowershell(){
 		; "\" is an escape in Powershell, use "/" to replace it
 		path := StrReplace(path, "\", "/")
 		cmd := "powershell -NoExit cd """ . path . """"
-		MsgBox, %cmd%
 		Run, %cmd%
 	}else{
 		Run, "powershell"
