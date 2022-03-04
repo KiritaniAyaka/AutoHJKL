@@ -216,19 +216,21 @@ fun_mouseMiddleRight(){
 
 fun_renameFile(){
 	WinGetClass, activeClass, A
-	WinGet, activeWinProcess, ProcessName, A
-	if(isIntelliJWindow(activeClass, activeWinProcess)){
+	WinGet, path, ProcessPath, A
+	if(isIntelliJWindow(activeClass, path)){
 		SendInput, +{F6}
 	}else{
 		SendInput, {F2}
 	}
 }
 
-isIntelliJWindow(class, processName){
-	if(class != "SunAwtFrame"){
+isIntelliJWindow(class, path){
+	if(class != "SunAwtFrame") {
 		Return 0
 	}
-	Return processName == "idea64.exe" || processName == "pycharm64.exe"
+	pos := InStr(path, "\", false, 0)
+	path := SubStr(path, 1, pos) . "idea.properties"
+	Return (FileExist(path) != "")
 }
 
 fun_newFolder(){
