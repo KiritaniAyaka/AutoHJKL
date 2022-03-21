@@ -249,12 +249,15 @@ fun_setWindowOnTop(){
 
 fun_runWindowsTerminal(){
 	path := getPathByActiveExplorer()
-	if(path){
-		cmd := "wt -d """ . path . """"
-		Run, %cmd%
-	}else{
-		Run, wt
+	cmd := "wt"
+	Process, Exist, WindowsTerminal.exe
+	if(ErrorLevel){
+		cmd := cmd . " -w 0 nt"
 	}
+	if(path){
+		cmd := cmd . " -d """ . path . """"
+	}
+	Run, %cmd%
 }
 
 fun_runCmd(){
@@ -271,8 +274,6 @@ fun_runCmd(){
 fun_runPowershell(){
 	path := getPathByActiveExplorer()
 	if(path){
-		; "\" is an escape in Powershell, use "/" to replace it
-		path := StrReplace(path, "\", "/")
 		cmd := "powershell -NoExit cd """ . path . """"
 		Run, %cmd%
 	}else{
@@ -285,5 +286,7 @@ getPathByActiveExplorer(){
 	match := ""
 	WinGetText, t, A
 	RegExMatch(t, "Oi)[A-Za-z]:\\.*", match)
-	return match[0]
+	; For robustness, use "/" instead of "\" cause "\" is an escape char
+	result := StrReplace(match[0], "\", "/")
+	return result
 }
