@@ -77,6 +77,10 @@ After press <kbd>CapsLock</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd> , then press <kb
 > Note: The id of binded window saved at `window` directory of root dir, reload script and reboot system does not affect window binded.
 > But the binding records will be deleted if the script found window binded was closed.
 
+### Pin window
+
+Press <kbd>CapsLock</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> to pin the focused window.
+
 ### Hide and show
 
 Press <kbd>CapsLock</kbd> + <kbd>Alt</kbd> + <kbd>H</kbd> to hide the focused window.
