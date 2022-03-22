@@ -100,22 +100,6 @@ fun_ctrlShiftUp(){
 	SendInput, +^{Up}
 }
 
-fun_moveAltLeft(){
-	SendInput, !{Left}
-}
-
-fun_moveAltRight(){
-	SendInput, !{Right}
-}
-
-fun_moveAltUp(){
-	SendInput, !{Up}
-}
-
-fun_moveAltDown(){
-	SendInput, !{Down}
-}
-
 fun_backspace(){
 	SendInput, {BS}
 }
@@ -289,4 +273,22 @@ getPathByActiveExplorer(){
 	; For robustness, use "/" instead of "\" cause "\" is an escape char
 	result := StrReplace(match[0], "\", "/")
 	return result
+}
+
+global hidden_windows := []
+
+fun_hideWindow(){
+  WinGet, hwnd, ID, A
+  hidden_windows.Push(hwnd)
+  WinHide, ahk_id %hwnd%
+  ShowToolTip("Window is hidden")
+}
+
+fun_showWindow(){
+  For index, hwnd in hidden_windows{
+    WinShow, ahk_id %hwnd%
+    WinActivate, ahk_id %hwnd%
+  }
+  ShowToolTip("All hidden windows is show")
+	hidden_windows := []
 }

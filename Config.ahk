@@ -25,7 +25,7 @@ IniRead, key_c_ls_lc_la, config.ini, Keys, c_ls_lc_la ,
 IniRead, key_d, config.ini, Keys, d , mouseRight
 IniRead, key_d_ls, config.ini, Keys, d_ls ,
 IniRead, key_d_lc, config.ini, Keys, d_lc ,
-IniRead, key_d_la, config.ini, Keys, d_la ,
+IniRead, key_d_la, config.ini, Keys, d_la , showWindow
 IniRead, key_d_ls_lc, config.ini, Keys, d_ls_lc ,
 IniRead, key_d_ls_la, config.ini, Keys, d_ls_la ,
 IniRead, key_d_lc_la, config.ini, Keys, d_lc_la ,
@@ -57,7 +57,7 @@ IniRead, key_g_ls_lc_la, config.ini, Keys, g_ls_lc_la ,
 IniRead, key_h, config.ini, Keys, h , moveLeft
 IniRead, key_h_ls, config.ini, Keys, h_ls , selectLeft
 IniRead, key_h_lc, config.ini, Keys, h_lc , moveAWordLeft
-IniRead, key_h_la, config.ini, Keys, h_la ,
+IniRead, key_h_la, config.ini, Keys, h_la , hideWindow
 IniRead, key_h_ls_lc, config.ini, Keys, h_ls_lc , selectAWordLeft
 IniRead, key_h_ls_la, config.ini, Keys, h_ls_la ,
 IniRead, key_h_lc_la, config.ini, Keys, h_lc_la ,
