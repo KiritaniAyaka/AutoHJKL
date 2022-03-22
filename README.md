@@ -77,6 +77,12 @@ AutoHJKL 集成了一些咱个人使用的功能，也保留了扩展能力，�
 > 注意：绑定的窗口 ID 将保存在根目录下的 window 目录中，重新加载脚本不影响已绑定的窗口，重启系统也不会。
 > 但如果程序发现已绑定的窗口被关闭，则会删除保存的绑定记录。
 
+### 隐藏与显示
+
+按下 <kbd>CapsLock</kbd> + <kbd>Alt</kbd> + <kbd>H</kbd> 隐藏当前焦点的窗口。
+
+按下 <kbd>CapsLock</kbd> + <kdb>Alt</kdb> + <kbd>D</kbd> 显示所有被隐藏的窗口。
+
 ## AltTab 增强
 
 按下 <kbd>Alt</kbd> + <kbd>Tab</kbd> 键呼出 Task Switcher，松开 <kbd>Tab</kbd> 键并按住 <kbd>Alt</kbd> 键。此时可以使用 <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> (或者 <kbd>H</kbd> <kbd>J</kbd> <kbd>K</kbd> <kbd>L</kbd>) 键来移动您的焦点；按 <kbd>C</kbd> 关闭当前焦点的窗口。
