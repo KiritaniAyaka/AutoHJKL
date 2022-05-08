@@ -16,15 +16,15 @@ AutoHJKL 集成了一些咱个人使用的功能，也保留了扩展能力，�
 
 # 如何使用
 
-您有两种方式使用该脚本：如果您不了解什么是 AutoHotkey，建议使用发布版本；如果您是 AutoHotkey 开发者，建议使用环境运行脚本。
+你有两种方式使用该脚本：如果你不了解什么是 AutoHotkey，建议使用发布版本；如果你是 AutoHotkey 开发者，建议使用环境运行脚本。
 
 ## 使用发布版本
 
-如果您在 GitHub 页面中看到了 Release，则可以在 Release 处下载二进制文件。（.exe）
+如果你在 GitHub 页面中看到了 Release，则可以在 Release 处下载二进制文件。（.exe）
 
 ## 使用环境运行
 
-首先您需要一个 [AutoHotkey](https://www.autohotkey.com/) 来运行这个脚本，由于脚本使用的语法限制，您只能使用 [AutoHotkey1.1](https://www.autohotkey.com/download/ahk-install.exe) 来运行此脚本。（**不要使用正在 Beta 阶段的 AutoHotkey v2 版本，也不要使用过时的 1.0 版本**）
+首先你需要一个 [AutoHotkey](https://www.autohotkey.com/) 来运行这个脚本，由于脚本使用的语法限制，你只能使用 [AutoHotkey1.1](https://www.autohotkey.com/download/ahk-install.exe) 来运行此脚本。（**不要使用正在 Beta 阶段的 AutoHotkey v2 版本，也不要使用过时的 1.0 版本**）
 
 在安装好 AutoHotkey 环境后，右键 AutoHJKL.ahk 文件，选择 `Run Script` 即可。
 
@@ -32,7 +32,7 @@ AutoHJKL 集成了一些咱个人使用的功能，也保留了扩展能力，�
 
 使用 <kbd>CapsLock</kbd> 键加上以下按键来触发对应的功能。
 
-许多的快捷键都有一定的规律，也有的组合键是从 Windows 操作系统的快捷键中推出的，因此您不必死记硬背对应的按键。
+许多的快捷键都有一定的规律，也有的组合键是从 Windows 操作系统的快捷键中推出的，因此你不必死记硬背对应的按键。
 
 |按键|功能|备注|
 |:-:|:-:|:-:|
@@ -89,7 +89,7 @@ AutoHJKL 集成了一些咱个人使用的功能，也保留了扩展能力，�
 
 ## AltTab 增强
 
-按下 <kbd>Alt</kbd> + <kbd>Tab</kbd> 键呼出 Task Switcher，松开 <kbd>Tab</kbd> 键并按住 <kbd>Alt</kbd> 键。此时可以使用 <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> (或者 <kbd>H</kbd> <kbd>J</kbd> <kbd>K</kbd> <kbd>L</kbd>) 键来移动您的焦点；按 <kbd>C</kbd> 关闭当前焦点的窗口。
+按下 <kbd>Alt</kbd> + <kbd>Tab</kbd> 键呼出 Task Switcher，松开 <kbd>Tab</kbd> 键并按住 <kbd>Alt</kbd> 键。此时可以使用 <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> (或者 <kbd>H</kbd> <kbd>J</kbd> <kbd>K</kbd> <kbd>L</kbd>) 键来移动你的焦点；按 <kbd>C</kbd> 关闭当前焦点的窗口。
 
 ## 重启脚本
 
