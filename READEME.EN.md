@@ -18,6 +18,8 @@ It's a script binding HJKL keys to arrow keys at first and it's scripted via Aut
 
 You have two ways to run this script: Use release version if you don't know what is AutoHotkey; Or run script via AutoHotkey environment if you are AutoHotkey developer.
 
+No matter which way you use it, it's recommended that run this script as an administrator to prevent the script from not working in some interfaces.
+
 ## Use release version
 
 You can download release binary file on GitHub if you can see the GitHub Release page. (.exe)
